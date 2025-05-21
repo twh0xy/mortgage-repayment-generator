@@ -83,7 +83,7 @@ function clearAll() {
 
   const active = document.activeElement
   if (active && 'blur' in active && typeof (active as HTMLElement).blur === 'function') {
-    (active as HTMLElement).blur()
+    ;(active as HTMLElement).blur()
   }
 
   emit('clear')
@@ -107,7 +107,7 @@ function clearAll() {
       <div class="mortgage_cl-form-amount">
         <label>Mortage Amount</label>
         <div class="mortgage_cl-form-amount--input">
-          <p style="background-color: #dbdb2d;">
+          <p style="background-color: #dbdb2d">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -134,7 +134,7 @@ function clearAll() {
           <label>Mortgage Term</label>
           <div class="term-input-ex">
             <input type="number" required v-model="term" />
-            <span style="color: #000;">years</span>
+            <span style="color: #000">years</span>
           </div>
         </div>
 
@@ -142,7 +142,7 @@ function clearAll() {
           <label>Interest Rate</label>
           <div class="term-input-ex">
             <input type="number" required v-model="rate" step="any" />
-            <p>
+            <p style="color: #000">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -170,11 +170,11 @@ function clearAll() {
         <div class="mortgage_cl_form-inputs">
           <div class="type-repayment">
             <input type="radio" name="mortgageType" value="repayment" v-model="type" />
-            <span>Repayment</span>
+            <span style="color: #000">Repayment</span>
           </div>
           <div class="type-interest-only">
             <input type="radio" name="mortgageType" value="interest-only" v-model="type" />
-            <span>Interest Only</span>
+            <span style="color: #000">Interest Only</span>
           </div>
         </div>
       </div>
@@ -185,7 +185,7 @@ function clearAll() {
           width="24"
           height="24"
           viewBox="0 0 24 24"
-          fill="#000"
+          fill="none"
           stroke="currentColor"
           stroke-width="2"
           stroke-linecap="round"
