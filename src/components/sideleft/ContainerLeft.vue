@@ -110,10 +110,10 @@ function clearAll() {
           <p style="background-color: #dbdb2d">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="32"
+              height="32"
               viewBox="0 0 24 24"
-              fill="#b89b0f"
+              fill="#000"
               stroke="currentColor"
               stroke-width="2"
               stroke-linecap="round"
