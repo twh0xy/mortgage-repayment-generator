@@ -211,6 +211,11 @@ function clearAll() {
 </template>
 
 <style scoped>
+label {
+  color: rgb(27, 29, 37);
+  font-weight: 600;
+}
+
 .amount-error-notification {
   position: fixed;
   top: 0px;
