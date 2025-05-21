@@ -113,7 +113,7 @@ function clearAll() {
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              fill="none"
+              fill="#b89b0f"
               stroke="currentColor"
               stroke-width="2"
               stroke-linecap="round"
