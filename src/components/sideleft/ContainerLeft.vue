@@ -107,7 +107,7 @@ function clearAll() {
       <div class="mortgage_cl-form-amount">
         <label>Mortage Amount</label>
         <div class="mortgage_cl-form-amount--input">
-          <p>
+          <p style="background-color: #dbdb2d;">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
