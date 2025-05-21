@@ -134,7 +134,7 @@ function clearAll() {
           <label>Mortgage Term</label>
           <div class="term-input-ex">
             <input type="number" required v-model="term" />
-            <span>years</span>
+            <span style="color: #000;">years</span>
           </div>
         </div>
 
